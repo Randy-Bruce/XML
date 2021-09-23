@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE oui SYSTEM "jeuxOlympique.dtd">
+<?xml-stylesheet href="jeuxOlympique.xsl" type="text/xsl" ?>
+<oui>
+    <tableau>
+        <ligne>
+            <pays nomDePays="USA"></pays>
+            <medaille typeDeMedaille="Or">46</medaille>
+            <medaille typeDeMedaille="Argent">37</medaille>
+            <medaille typeDeMedaille="Bronze">38</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="GrandeBretagne"></pays>
+            <medaille typeDeMedaille="Or">27</medaille>
+            <medaille typeDeMedaille="Argent">23</medaille>
+            <medaille typeDeMedaille="Bronze">17</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="Chine"></pays>
+            <medaille typeDeMedaille="Or">26</medaille>
+            <medaille typeDeMedaille="Argent">18</medaille>
+            <medaille typeDeMedaille="Bronze">26            
+            </medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="Russie"></pays>
+            <medaille typeDeMedaille="Or">19</medaille>
+            <medaille typeDeMedaille="Argent">18</medaille>
+            <medaille typeDeMedaille="Bronze">19</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="Allemagne"></pays>
+            <medaille typeDeMedaille="Or">17</medaille>
+            <medaille typeDeMedaille="Argent">10</medaille>
+            <medaille typeDeMedaille="Bronze">15</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="Japon"></pays>
+            <medaille typeDeMedaille="Or">12</medaille>
+            <medaille typeDeMedaille="Argent">8</medaille>
+            <medaille typeDeMedaille="Bronze">21</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="France"></pays>
+            <medaille typeDeMedaille="Or">10</medaille>
+            <medaille typeDeMedaille="Argent">18</medaille>
+            <medaille typeDeMedaille="Bronze">14</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="CoreeDuSud"></pays>
+            <medaille typeDeMedaille="Or">9</medaille>
+            <medaille typeDeMedaille="Argent">3</medaille>
+            <medaille typeDeMedaille="Bronze">9</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="Italie"></pays>
+            <medaille typeDeMedaille="Or">8</medaille>
+            <medaille typeDeMedaille="Argent">12</medaille>
+            <medaille typeDeMedaille="Bronze">8</medaille>        
+        </ligne>
+        <ligne>
+            <pays nomDePays="Australie"></pays>
+            <medaille typeDeMedaille="Or">8</medaille>
+            <medaille typeDeMedaille="Argent">11</medaille>
+            <medaille typeDeMedaille="Bronze">10</medaille>        
+        </ligne>
+    </tableau>
+</oui>

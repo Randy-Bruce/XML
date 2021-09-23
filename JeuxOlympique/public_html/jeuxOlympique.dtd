@@ -1,0 +1,10 @@
+<!ELEMENT oui (tableau)>
+<!ELEMENT tableau (ligne*)>
+<!ELEMENT ligne (pays,medaille,medaille,medaille,totalMedaille?)>
+<!ELEMENT pays EMPTY>
+<!ELEMENT medaille (#PCDATA)>
+<!ELEMENT totalMedaille (#PCDATA)>
+
+
+<!ATTLIST pays nomDePays ( USA | GrandeBretagne | Chine | Russie | Allemagne | Japon | France | CoreeDuSud | Italie | Australie ) #REQUIRED >
+<!ATTLIST medaille typeDeMedaille (Or | Argent | Bronze) #REQUIRED >
