@@ -20,7 +20,7 @@
                 <th> Pays </th>
                 <th> Or </th>
                 <th> Argent </th>
-                <th> Bronze </th>
+                <th> Bronze </th>                
             </tr>            
             <xsl:apply-templates />
         </table>
@@ -31,26 +31,20 @@
     <xsl:template match="pays">
         <tr>
             <td>
-                <xsl:value-of select="@nomDePays" />
+                <xsl:value-of select="@nomDePays" />               
             </td>
             <xsl:apply-templates />
         </tr>
     </xsl:template>
     
-    <xsl:template match="medaille">
-        <tr>
-            <td>
-                <xsl:value-of select="@typeDeMedaille" />
-            </td>
-            <xsl:apply-templates />
-        </tr>
+    <xsl:template match="medaille">          
+        <xsl:value-of select="Or" />            
+        <xsl:apply-templates />      
     </xsl:template>
     
-    
-    <xsl:template match="medaille">
-        <td class="medaille">
-            <xsl:value-of select="." />
-        </td>	
-    </xsl:template>
                 
 </xsl:stylesheet>
+
+
+
+            
